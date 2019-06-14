@@ -5,10 +5,12 @@ We all learned to speak before we knew parts of speech; we could all add before 
 
 ### Getting Started
 
-[Raspberry Pi]
+[Python](Python/README.md)
 
-[Python]
+[Linux](Linux/README.md)
 
-[Linux]
+[Raspberry Pi](RaspberryPi/README.md)
 
 ### Projects
+
+##### This is where projects will go
