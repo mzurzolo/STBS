@@ -10,6 +10,7 @@ We all learned to speak before we knew parts of speech; we could all add before 
       1.b. [On a Raspberry Pi](RaspberryPi/README.md)
 
 2. [Python](Python/README.md)
+
 ### Projects
 
 ##### This is where projects will go

@@ -11,10 +11,3 @@ Use the Raspberry Pi Foundation's [NOOBS](https://www.raspberrypi.org/downloads/
     * Unzipping the zip file may create a new folder with all the files in it. You want to copy all the files, but not that folder.
     * There is a file called INSTRUCTIONS-README.txt. If you see that file, you're at the right folder level to select all the files and copy them to the SD card.
 5. Plug the SD card into the Raspberry Pi, hook it up, turn it on, and follow the installer prompts.
-
-#### Links to other resources
-
-#### Projects
-
-
-##### Notes
