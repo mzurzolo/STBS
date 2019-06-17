@@ -23,7 +23,6 @@ The [Raspberry Pi Desktop](https://www.raspberrypi.org/downloads/raspberry-pi-de
       2.3. Flash it
 
 3. After flash is complete, reboot your computer without removing the flash drive
-
 ##### Warning: Steps 4 and 5 can be hard to follow because they are heavily dependent on the computer being used. They are also done before your computer is fully booted, and therefore vulnerable to destructive accidents. If you are unsure, DON'T GUESS. [Open an issue](https://github.com/mzurzolo/STBS/issues) with your computer brand (Dell, HP, etc.) and model number, and specific instructions for your system will be provided. If you don't know your computer's model number, open an issue with as much information as you can, and I'll try my best to figure it out, and then provide specific instructions.
 
 4. While the computer is starting up, you need to access the boot menu.
