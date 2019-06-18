@@ -36,12 +36,14 @@ Some flash drives do not handle running an entire OS well (even if they're big e
 
 4. While the computer is starting up, you need to access the boot menu.
 
-    4.1. The boot menu can usually be accessed by hitting one of the F keys during the first stages of startup. (F2, F10, F11, and F12 are all commonly used keys for accessing boot menus)
+    * The boot menu can usually be accessed by hitting one of the F keys during the first stages of startup. (F2, F10, F11, and F12 are all commonly used keys for accessing boot menus)
 
-    4.2. Searching "<computer type/model> access boot menu" will usually give clear instructions.
+    * Searching "<computer type/model> access boot menu" will usually give clear instructions.
 
 5. Once you have the boot menu up, you need to tell the computer to boot your newly-created flash drive. These menu options vary from one computer to another, but here are some general notes/things to look for:
 
   * If you see "One time boot menu", "UEFI", "BIOS", or "Legacy", you're likely in the right place. Look for an option that has "USB", "USB Hard disk", "<your flash drive's brand name>", "Stretch", "RPD", "Debian", or some other indication that it's your newly-created flash drive. Select this option.
 
   * If you DON'T see any of the words above, you should be looking for sections that say things like: "Hardware", "Boot", "Boot order", or "Advanced". The goal is to tell your computer to boot from your flash drive.
+
+Continue to the [python getting started guide](../Python/README.md)
