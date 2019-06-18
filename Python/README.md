@@ -25,3 +25,15 @@
 Suggestions:
 * Type `anaconda-navigator &` to get an anaconda launcher window. You can manage packages from here, and launch an Integrated Development Environment (IDE)
 * Spyder is a great IDE to start with. To start using Spyder, type `spyder &` into a terminal, or launch it from anaconda navigator
+
+#### Next Steps:
+
+This website, and all the guides and projects displayed here, live in a code repository hosted by github. That means that this content is Version Controlled (the edit history is tracked) and can be easily downloaded and updated.
+
+##### To download all projects and guides, open a terminal and run this command:
+`git clone https://github.com/mzurzolo/STBS.git`
+
+##### When that command finishes, you should see a new folder named STBS. You can run `ls` to check.
+##### To get the most updated version of the projects:
+1. Change directory to STBS: `cd ./STBS`
+2. Pull down any updates: `git pull`
