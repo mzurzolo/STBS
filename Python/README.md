@@ -6,10 +6,13 @@
 #### Anaconda install guide:
 ##### This guide assumes you already followed [linux guide 1.a.](../Linux/README.md)
 1. Get the linux installer for x86_64. Click [here](https://repo.anaconda.com/archive/Anaconda3-2019.03-Linux-x86_64.sh) to start the download.
-2. Open a terminal ![terminal](Pictures/terminal.png) ![terminal2](Pictures/terminal2.png)
+2. Open a terminal
+
+![terminal](Pictures/terminal.png)
+![terminal2](Pictures/terminal2.png)
 3. Run these two commands:
 
-    3.1. `sudo apt-get -y install python2.7-minimal:amd64`
+    3.1. `sudo apt-get update && sudo apt-get -y install gcc-6 g++-6 cpp-6 binutils`
     * this will install packages you need to install anaconda. you can paste things into a terminal with right click + paste (ctrl-v doesn't work)
 
   3.2. `chmod +x Downloads/Anaconda3-2019.03-Linux-x86_64.sh && bash Downloads/Anaconda3-2019.03-Linux-x86_64.sh`
@@ -23,8 +26,7 @@
     You're all set.
 
 Suggestions:
-* Type `anaconda-navigator &` to get an anaconda launcher window. You can manage packages from here, and launch an Integrated Development Environment (IDE)
-* Spyder is a great IDE to start with. To start using Spyder, type `spyder &` into a terminal, or launch it from anaconda navigator
+* Jupyter Lab is a great IDE to start with, and it runs inside a web browser. Run the command: `jupyter lab` to launch it.
 
 #### Next Steps:
 
@@ -36,4 +38,6 @@ This website, and all the guides and projects displayed here, live in a code rep
 ##### When that command finishes, you should see a new folder named STBS. You can run `ls` to check.
 ##### To get the most updated version of the projects:
 1. Change directory to STBS: `cd ./STBS`
-2. Pull down any updates: `git pull`
+2. Get any updates: `git pull`
+
+#### Continue to [python project #1](Projects/project1/README.md)
