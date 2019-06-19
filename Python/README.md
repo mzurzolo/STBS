@@ -10,15 +10,19 @@
 
 ![terminal](Pictures/terminal.png)
 ![terminal2](Pictures/terminal2.png)
-3. Run these two commands:
+3. Run these commands:
 
-    3.1. `sudo apt-get update && sudo apt-get -y install gcc-6 g++-6 cpp-6 binutils`
-    * this will install packages you need to install anaconda. you can paste things into a terminal with right click + paste (ctrl-v doesn't work)
+    3.1. `sudo apt-get update`
 
-  3.2. `chmod +x Downloads/Anaconda3-2019.03-Linux-x86_64.sh && bash Downloads/Anaconda3-2019.03-Linux-x86_64.sh`
-  * this will make the anaconda installer runnable, and then run it.
+    3.2. `sudo apt-get -y install gcc-6 g++-6 cpp-6 binutils`
+    * 3.1 and 3.2 will install packages you need to install anaconda. You can paste things into a terminal with right click + paste (ctrl-v doesn't work)
+
+  3.3. `chmod +x Downloads/Anaconda3-2019.03-Linux-x86_64.sh`
+  * 3.3 will make the anaconda installer runnable
+
+  3.4.`bash Downloads/Anaconda3-2019.03-Linux-x86_64.sh`
+  * 3.4 will run the installer
   * You will be prompted to accept a license (type yes, hit enter), choose a default install location (hit enter),  and run conda init (type yes, hit enter)
-  * You don't need to install VS Code
   * After the installer is done, it will tell you to open a new terminal for the changes to take effect. If you open a new terminal and see:
 
     __(base) pi@raspberrypi:~ $__
@@ -26,6 +30,12 @@
     You're all set.
 
 Suggestions:
+* Make Chromium your default browser. Here are pictures to show you how:
+![default_browser1](Pictures/default_browser1.png)
+![default_browser2](Pictures/default_browser2.png)
+![default_browser3](Pictures/default_browser3.png)
+![default_browser4](Pictures/default_browser4.png)
+![default_browser5](Pictures/default_browser5.png)
 * Jupyter Lab is a great IDE to start with, and it runs inside a web browser. Run the command: `jupyter lab` to launch it.
 
 #### Next Steps:
