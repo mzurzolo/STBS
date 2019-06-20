@@ -1,6 +1,6 @@
-### Project Notes
+## Project Notes
 
-##### Assumptions:
+#### Assumptions:
 1. I will assume you have Anaconda, and you have cloned this repository with `git clone https://github.com/mzurzolo/STBS.git`
 2. I will assume you are starting each new project by opening a new terminal window. _If you don't want to open a new terminal window, the command `cd` on its own will bring you back to your home directory, and the command `deactivate` will reset your 'python environment' (more on that later)._
 
@@ -8,7 +8,7 @@
 
   and a 'setup script' to automate some setup tasks. This script will always be called *work_here.sh*, and the command to run it is: `source ./work_here.sh`
 
-##### Project Layout:
+#### Project Layout:
 * Each project will be in its own folder, under STBS/Python/Projects
 * Each project folder will contain:
   * A setup script for the project: `source ./work_here.sh`
