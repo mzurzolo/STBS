@@ -5,18 +5,15 @@ import matplotlib.pyplot as plt
 
 def main():
     """Run the program."""
-    x = np.array([i for i in range(10)])
+    x = [i for i in range(100)]
     print(x)
-    y = np.array([i for i in range(10)])
+    y = [i for i in range(100)]
     print(y)
 
     df = pd.DataFrame({'x': x,
                        'y': y})
 
-    plt.figure()
-    plt.plot(df['x'], df['y'])
-    plt.show()
-
+    df.plot(x='x', y='y')
 
 if __name__ == "__main__":
     main()
