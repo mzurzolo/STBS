@@ -13,4 +13,4 @@ We all learned to speak before we knew parts of speech; we could all add before 
 
 ### Projects
 
-##### This is where projects will go
+[Project 1](Python/Projects/project1/README.md)
