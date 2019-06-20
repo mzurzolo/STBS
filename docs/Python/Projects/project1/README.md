@@ -1,2 +1,3 @@
-### Project 1:
-##### Step 1: Bug Mike to get Project 1 ready.
+### Project 1
+
+#### If you haven't already, please read [project notes](../ProjectNotes.md). 

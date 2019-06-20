@@ -46,4 +46,4 @@ Some flash drives do not handle running an entire OS well (even if they're big e
 
   * If you DON'T see any of the words above, you should be looking for sections that say things like: "Hardware", "Boot", "Boot order", or "Advanced". The goal is to tell your computer to boot from your flash drive.
 
-Continue to the [python getting started guide](../Python/README.md)
+#### Continue to the [python getting started guide](../Python/README.md)
