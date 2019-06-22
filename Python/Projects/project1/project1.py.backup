@@ -1,7 +1,12 @@
+"""Import statements tell python what packages you'll be using.
+
+You can use 'as' to change how you refer to the package. In this file,
+I import matplotlib.pyplot as plt so I don't have to type out
+'matplotlib.pyplot' every time I want to use it."""
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-%matplotlib inline
+
 
 def main():
     """Run the program."""
@@ -13,7 +18,9 @@ def main():
     df = pd.DataFrame({'x': x,
                        'y': y})
 
+    plt.figure()
     df.plot(x='x', y='y')
+    plt.show()
 
 if __name__ == "__main__":
     main()
