@@ -2,6 +2,9 @@
 
 mkdir -p inputs outputs
 
+if [ ! -f ./inputs/data.csv ] ; then
+  cp ../data.csv ./inputs/data.csv
+
 if [ ! -d ./py3 ] ; then
   python3 -m venv py3
   source py3/bin/activate
@@ -15,4 +18,4 @@ fi
 
 source py3/bin/activate
 
-echo "\nRemember to run \"deactivate\" when you're done with this project"
+printf "\nRemember to run \"deactivate\" when you're done with this project\n\n"
