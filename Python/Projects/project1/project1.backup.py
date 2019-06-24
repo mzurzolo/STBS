@@ -7,18 +7,15 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-
 def main():
-    """Run the program."""
+    """Run the program, using pandas."""
     x = [i for i in range(100)]
-    print(x)
+    # print(x)
     y = [i for i in range(100)]
-    print(y)
-
+    # print(y)
     df = pd.DataFrame({'x': x,
                        'y': y})
 
-    plt.figure()
     df.plot(x='x', y='y')
     plt.show()
 

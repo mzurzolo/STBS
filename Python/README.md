@@ -22,7 +22,7 @@
 
   3.4.`bash Downloads/Anaconda3-2019.03-Linux-x86_64.sh`
   * 3.4 will run the installer
-  * You will be prompted to accept a license (type yes, hit enter), choose a default install location (hit enter),  and run conda init (type yes, hit enter)
+  * You will be prompted to accept a license (type yes, hit enter), choose a default install location (hit enter), and run conda init (type yes, hit enter)
   * After the installer is done, it will tell you to open a new terminal for the changes to take effect. If you open a new terminal and see:
 
     __(base) pi@raspberrypi:~ $__

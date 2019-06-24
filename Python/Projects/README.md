@@ -13,7 +13,7 @@
 * Each project folder will contain:
   * A setup script for the project: `source work_here.sh`
   * The main program file/the starting point of the project. It will end in .py: `project1.py`
-  * A backup of the project file, just in case: `project1.py.backup`
+  * A backup of the project file, just in case: `project1.backup.py`
   * Input and output folders, if necessary: `inputs`  `outputs`
   * An instruction page meant to be viewed as a webpage: `README.md`
   * A file that names python packages required for the project: `requirements.txt`

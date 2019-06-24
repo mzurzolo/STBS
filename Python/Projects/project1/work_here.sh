@@ -10,9 +10,9 @@ if [ ! -d ./py3 ] ; then
 fi
 
 if [ ! -f ./project1.py ] ; then
-  cp ./project1.py.backup ./project1.py
+  cp ./project1.backup.py ./project1.py
 fi
 
 source py3/bin/activate
 
-echo "Remember to run \"deactivate\" when you're done with this project"
+echo "\nRemember to run \"deactivate\" when you're done with this project"

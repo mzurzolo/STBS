@@ -40,6 +40,8 @@ Some flash drives do not handle running an entire OS well (even if they're big e
 
     * Searching "<computer type/model> access boot menu" will usually give clear instructions.
 
+    * Mac users should follow [this guide](https://support.apple.com/en-us/HT202796)
+
 5. Once you have the boot menu up, you need to tell the computer to boot your newly-created flash drive. These menu options vary from one computer to another, but here are some general notes/things to look for:
 
   * If you see "One time boot menu", "UEFI", "BIOS", or "Legacy", you're likely in the right place. Look for an option that has "USB", "USB Hard disk", "<your flash drive's brand name>", "Stretch", "RPD", "Debian", or some other indication that it's your newly-created flash drive. Select this option.
