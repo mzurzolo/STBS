@@ -4,6 +4,7 @@ mkdir -p inputs outputs
 
 if [ ! -f ./inputs/data.csv ] ; then
   cp ../data.csv ./inputs/data.csv
+fi
 
 if [ ! -d ./py3 ] ; then
   python3 -m venv py3

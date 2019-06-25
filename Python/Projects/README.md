@@ -25,3 +25,20 @@
     * I use them in these lessons to show you how/provide a working example (they're not totally necessary in small projects, but they keep things clean, and it's a good habit to build)
     * I automate their use here so you can ignore it if you want to. Virtual environment setup is one of the steps in work_here.sh
     * I may write up a lesson on environment and package management eventually
+
+#### Documentation:
+* Documentation is like a User's/Owner's manual
+* Most software projects have documentation
+* Good documentation includes quick start guides, examples, and a description of how to use the project (called an API)
+* Relevant documentation will be linked in project directions, and in the comments of the projects themselves (comments are lines in a computer program that the computer ignores. They're notes to the programmer. Comments in python start with a # or have triple quotes around them)
+
+#### Using Jupyter Lab:
+* Jupyter lab allows you to have everything you need in one browser.
+* When you first launch jupyter lab, it should look something like this: ![jupyterlab start](Pictures/jupyterlab_start.png)
+* There is a file explorer on the left-hand side, and an editor on the right.
+* Click the plus sign in the top left to get a new launcher ![jupyterlab launcher](Pictures/jupyterlab_newlauncher.png)
+* Launch a new terminal ![jupyterlab launcher](Pictures/jupyterlab_newterminal.png)
+![jupyterlab launcher](Pictures/jupyterlab_newterminal1.png)
+* You can re-arrange the terminal window by dragging the terminal tab
+* I like mine at the bottom. ![jupyterlab launcher](Pictures/jupyterlab_newterminal2.png)
+* Having a split window like this makes it easier to edit the code you're working on, save changes, and test them. ![jupyterlab launcher](Pictures/jupyterlab_newterminal3.png)
