@@ -41,4 +41,4 @@
 ![jupyterlab launcher](Pictures/jupyterlab_newterminal1.png)
 * You can re-arrange the terminal window by dragging the terminal tab
 * I like mine at the bottom. ![jupyterlab launcher](Pictures/jupyterlab_newterminal2.png)
-* Having a split window like this makes it easier to edit the code you're working on, save changes, and test them. ![jupyterlab launcher](Pictures/jupyterlab_newterminal3.png)
+* Having a split window like this makes it easier to edit the code you're working on, save changes, and test them. Just type `python project1.py` and hit enter to run the project. ![jupyterlab launcher](Pictures/jupyterlab_newterminal3.png)
