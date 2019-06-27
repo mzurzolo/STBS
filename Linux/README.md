@@ -15,9 +15,9 @@ Some flash drives do not handle running an entire OS well (even if they're big e
 * I have not had success with PNY flash drives, and I don't recommend them.
 
 
-1. Click the link above to go to the download page. Download the .iso file. If you're given an option to save or open the file, save it.
+1. Click [here](https://downloads.raspberrypi.org/rpd_x86_latest) to start the .iso file download. If you're given an option to save or open the file, save it.
 ![RPD](Pictures/rpd_iso_download.png)
-2. After downloading the .iso file, burn it to a flash drive with Etcher, which can be downloaded [here](https://etcher.io/).
+2. After downloading the .iso file, burn it to a flash drive with Etcher, which can be downloaded [here](https://etcher.io/). Scroll down until you see assets, and pick the version compatible with your system. ![etcher_downloads](Pictures/etcher_downloads_screen.png)
 
       2.1. Select the image
 
