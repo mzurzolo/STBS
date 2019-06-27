@@ -50,4 +50,4 @@ This website, and all the guides and projects displayed here, live in a code rep
 1. Change directory to STBS: `cd ./STBS`
 2. Get any updates: `git pull`
 
-#### Continue to [python project #1](Projects/project1/README.md)
+#### Continue to [python project notes](Projects/README.md)
