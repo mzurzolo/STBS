@@ -13,4 +13,6 @@ We all learned to speak before we knew parts of speech; we could all add before 
 
 ### Projects
 
+[Python Project Notes](Python/Projects/README.md)
+
 [Project 1](Python/Projects/project1/README.md)
