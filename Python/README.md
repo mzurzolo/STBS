@@ -10,6 +10,7 @@
   ![terminal](Pictures/terminal.png)
   ![terminal2](Pictures/terminal2.png)
 3. Run these commands:
+
   * `sudo apt-get update`
 
   * `sudo apt-get -y install libbz2-1.0:amd64 libgl1:amd64`
