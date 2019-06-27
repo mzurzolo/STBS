@@ -12,7 +12,7 @@
 3. Run these commands:
   * `sudo apt-get update`
 
-  * `sudo apt-get -y install libbz2-1.0:amd64`
+  * `sudo apt-get -y install libbz2-1.0:amd64 libgl1:amd64`
     * These commands will install packages you need to install anaconda. You can paste things into a terminal with right click + paste (ctrl-v doesn't work)
 
   * `chmod +x Downloads/Anaconda3-2019.03-Linux-x86_64.sh`
@@ -30,8 +30,6 @@
 ![default_browser3](Pictures/default_browser3.png)
 ![default_browser4](Pictures/default_browser4.png)
 ![default_browser5](Pictures/default_browser5.png)
-
-  * Jupyter Lab is a great IDE (Integrated Development Environment) to start with, and it runs inside a web browser. Run the command: `jupyter lab` to launch it.
 
 #### Next Steps:
 
