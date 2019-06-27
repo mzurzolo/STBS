@@ -13,10 +13,8 @@
   * `sudo apt-get update`
   * `sudo apt-get -y install libbz2-1.0:amd64`
     * These commands will install packages you need to install anaconda. You can paste things into a terminal with right click + paste (ctrl-v doesn't work)
-
   * `chmod +x Downloads/Anaconda3-2019.03-Linux-x86_64.sh`
     * This command will make the anaconda installer runnable
-
   * `bash Downloads/Anaconda3-2019.03-Linux-x86_64.sh`
     * This will run the installer
     * You will be prompted to accept a license (type yes, hit enter), choose a default install location (hit enter), and run conda init (type yes, hit enter)
