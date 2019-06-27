@@ -19,9 +19,7 @@
     * This will run the installer
     * You will be prompted to accept a license (type yes, hit enter), choose a default install location (hit enter), and run conda init (type yes, hit enter)
     * After the installer is done, it will tell you to open a new terminal for the changes to take effect. When you open a new terminal you should see:
-
       __(base) pi@raspberrypi:~ $__
-
 4. Make Chromium your default browser. Here are pictures to show you how:
 ![default_browser1](Pictures/default_browser1.png)
 ![default_browser2](Pictures/default_browser2.png)
