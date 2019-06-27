@@ -7,7 +7,6 @@
 ##### This guide assumes you already followed [linux guide 1.a.](../Linux/README.md)
 1. Get the linux installer for x86_64. Click [here](https://repo.anaconda.com/archive/Anaconda3-2019.03-Linux-x86_64.sh) to start the download.
 2. Open a terminal
-
 ![terminal](Pictures/terminal.png)
 ![terminal2](Pictures/terminal2.png)
 
