@@ -34,9 +34,13 @@ Some flash drives do not handle running an entire OS well (even if they're big e
 3. After flash is complete, reboot your computer without removing the flash drive
 ##### Warning: Steps 4 and 5 can be hard to follow because they are heavily dependent on the computer being used. They are also done before your computer is fully booted, and therefore vulnerable to destructive accidents. If you are unsure, DON'T GUESS. [Open an issue](https://github.com/mzurzolo/STBS/issues) with your computer brand (Dell, HP, etc.) and model number, and specific instructions for your system will be provided. If you don't know your computer's model number, open an issue with as much information as you can, and I'll try my best to figure it out, and then provide specific instructions.
 
-4. While the computer is starting up, you need to access the boot menu.
+4. While the computer is starting up, you need to access the boot menu, which is only available for a short window of time during a reboot.
 
-    * The boot menu can usually be accessed by hitting one of the F keys during the first stages of startup. (F2, F10, F11, and F12 are all commonly used keys for accessing boot menus)
+    * The boot menu can usually be accessed by hitting one of the F keys during the first stages of startup. Try F12 first. (F2, F10, F11, and F12 are all commonly used keys for accessing boot menus)
+
+    * You should hit the F key as soon as you see the first logo appear on your screen, and you may need to hit it more than once.
+
+    * Pay attention to any text that may flash on the screen. Sometimes it will tell you what F key to hit.
 
     * Searching "<computer type/model> access boot menu" will usually give clear instructions.
 
