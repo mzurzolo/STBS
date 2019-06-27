@@ -11,6 +11,7 @@
   ![terminal2](Pictures/terminal2.png)
 3. Run these commands:
   * `sudo apt-get update`
+
   * `sudo apt-get -y install libbz2-1.0:amd64`
     * These commands will install packages you need to install anaconda. You can paste things into a terminal with right click + paste (ctrl-v doesn't work)
 
@@ -22,7 +23,7 @@
     * You will be prompted to accept a license (type yes, hit enter), choose a default install location (hit enter), and run conda init (type yes, hit enter)
     * After the installer is done, it will tell you to open a new terminal for the changes to take effect. When you open a new terminal you should see:
       `(base) pi@raspberrypi:~ $`
-      
+
 4. Make Chromium your default browser. Here are pictures to show you how:
 ![default_browser1](Pictures/default_browser1.png)
 ![default_browser2](Pictures/default_browser2.png)
