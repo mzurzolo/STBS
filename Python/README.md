@@ -7,26 +7,25 @@
 ##### This guide assumes you already followed [linux guide 1.a.](../Linux/README.md)
 1. Get the linux installer for x86_64. Click [here](https://repo.anaconda.com/archive/Anaconda3-2019.03-Linux-x86_64.sh) to start the download.
 2. Open a terminal
-![terminal](Pictures/terminal.png)
-![terminal2](Pictures/terminal2.png)
-
+  ![terminal](Pictures/terminal.png)
+  ![terminal2](Pictures/terminal2.png)
 3. Run these commands:
+  * `sudo apt-get update`
+  * `sudo apt-get -y install libbz2-1.0:amd64`
 
-  3.1. `sudo apt-get update`
+    These commands will install packages you need to install anaconda. You can paste things into a terminal with right click + paste (ctrl-v doesn't work)
 
-  3.2. `sudo apt-get -y install libbz2-1.0:amd64`
+  * `chmod +x Downloads/Anaconda3-2019.03-Linux-x86_64.sh`
 
-    * 3.1 and 3.2 will install packages you need to install anaconda. You can paste things into a terminal with right click + paste (ctrl-v doesn't work)
+    This command will make the anaconda installer runnable
 
-  3.3. `chmod +x Downloads/Anaconda3-2019.03-Linux-x86_64.sh`
+  * `bash Downloads/Anaconda3-2019.03-Linux-x86_64.sh`
 
-    * 3.3 will make the anaconda installer runnable
+    This will run the installer
 
-  3.4.`bash Downloads/Anaconda3-2019.03-Linux-x86_64.sh`
+    You will be prompted to accept a license (type yes, hit enter), choose a default install location (hit enter), and run conda init (type yes, hit enter)
 
-  * 3.4 will run the installer
-  * You will be prompted to accept a license (type yes, hit enter), choose a default install location (hit enter), and run conda init (type yes, hit enter)
-  * After the installer is done, it will tell you to open a new terminal for the changes to take effect. When you open a new terminal you should see:
+    After the installer is done, it will tell you to open a new terminal for the changes to take effect. When you open a new terminal you should see:
 
     __(base) pi@raspberrypi:~ $__
 
