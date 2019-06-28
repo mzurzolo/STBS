@@ -48,20 +48,27 @@ def plot_without_pandas():
             # Split each line into a list of values,
             # using a comma as the separation point
             split_line = line.split(",")
-            # Add the first value of the split line to our list of x values
-            # This will also strip out any extra spaces and convert the value
-            # to a number
-            x.append(float(split_line[0].strip()))
-            # Build up every other list the same way
-            y.append(float(split_line[1].strip()))
-            sin.append(float(split_line[2].strip()))
-            cos.append(float(split_line[3].strip()))
+
+            x_temp = split_line[0].strip()
+            y_temp = split_line[1].strip()
+            sin_temp = split_line[2].strip()
+            cos_temp = split_line[3].strip()
+
+            x_temp = float(x_temp)
+            y_temp = float(y_temp)
+            sin_temp = float(sin_temp)
+            cos_temp = float(cos_temp)
+
+            x.append(x_temp)
+            y.append(y_temp)
+            sin.append(sin_temp)
+            cos.append(cos_temp)
 
             # If you want to watch the list grow, you can use python's input
             # function. Input will print a message, and wait for the user to
             # press 'enter'. To pause the loop and print the list x,
-            # uncomment the next line:
-            # input(x)
+            # remove the # from the line below:
+            #input(x)
         # See https://matplotlib.org/3.1.0/tutorials/introductory/pyplot.html
         # For more on plotting with matplotlib.pyplot
         plt.figure()

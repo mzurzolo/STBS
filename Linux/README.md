@@ -45,7 +45,7 @@ Some flash drives do not handle running an entire Operating System well (even if
 
 4. While the computer is starting up, you need to access the boot menu, which is only available for a short window of time during a reboot.
 
-    * The boot menu can usually be accessed by hitting one of the F# keys during the first stages of startup. Try F12 first. (F2, F10, F11, and F12 are all commonly used keys for accessing boot menus)
+    * The boot menu can usually be accessed by hitting one of the F# keys during the first stages of startup. Try F12 first. (F12, F11, F10, and F2, are all commonly used keys for accessing boot menus)
 
     * You should hit the F# key as soon as you see the first logo appear on your screen, and you may need to hit it more than once.
 
@@ -57,8 +57,20 @@ Some flash drives do not handle running an entire Operating System well (even if
 
 5. Once you have the boot menu up, you need to tell the computer to boot your newly-created flash drive. These menu options vary from one computer to another, but here are some general notes/things to look for:
 
-  * If you see "One time boot menu", "UEFI", "BIOS", or "Legacy", you're likely in the right place. Look for an option that has "UEFI", "USB", "USB Hard disk", "<your flash drive's brand name>", "Stretch", "RPD", "Debian", or some other indication that it's your newly-created flash drive. Select this option.
+  * If you see "One time boot menu", or "UEFI", you're likely in the right place. Look for an option that has "UEFI:<your flash drive's brand name>", "UEFI:<your flash drive's brand name> Partition 1", "USB", "USB Hard disk", or some other indication that it's your newly-created flash drive. Select this option.
 
-  * If you DON'T see any of the words above, you should be looking for sections that say things like: "Hardware", "Boot", "Boot order", or "Advanced". The goal is to tell your computer to boot from your flash drive.
+  * If you DON'T see any of the words above, [open an issue](https://github.com/mzurzolo/STBS/issues).
+
+6. Once you successfully boot your flash drive, follow the setup prompts:
+  * Set timezone and keyboard info
+  ![rpd_timezone](Pictures/rpd_set_timezone.png)
+  * You don't need to change your password unless you want to
+  ![rpd_change_password](Pictures/rpd_change_password.png)
+  * If you see a black border around your screen, check the box
+  ![rpd_setup_screen](Pictures/rpd_setup_screen.png)
+  * Setup wifi
+  ![rpd_wifi_password](Pictures/rpd_wifi_password.png)
+  * You don't need to update software just yet, and it will prevent you from doing the next part of this guide until the update completes. You can hit skip, or just leave the window open and continue to the next python getting started guide. You also don't need to reboot your computer. You CAN update software and do the reboot, but it isn't necessary, and requires waiting.
+  ![rpd_software_update](Pictures/rpd_software_update.png)
 
 #### Continue to the [python getting started guide](../Python/README.md)

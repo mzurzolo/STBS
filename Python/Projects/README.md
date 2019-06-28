@@ -4,7 +4,7 @@
 1. I will assume you have Anaconda, and you have cloned this repository with `git clone https://github.com/mzurzolo/STBS.git`
 2. I will assume you are starting each new project by opening a new terminal window. _If you don't want to open a new terminal window, the command `cd` on its own will bring you back to your home directory, and the command `deactivate` will reset your 'python environment' (more on that later)._
 
-  I will provide a quick command to get you to the project. _example: `cd STBS/Python/Projects/project1`_
+  I will provide a quick command to get you to the project. _example: `cd ~/STBS/Python/Projects/project1`_
 
   and a 'setup script' to automate some setup tasks. This script will always be called *work_here.sh*, and the command to run it is: `source work_here.sh`
 
@@ -28,7 +28,7 @@
 
 #### Documentation:
 * Documentation is like a User's/Owner's manual
-* Most software projects have documentation
+* Most software packages/products have documentation
 * Good documentation includes quick start guides, examples, and a description of how to use the project (called an API)
 * Relevant documentation will be linked in project directions, and in the comments of the projects themselves (comments are lines in a computer program that the computer ignores. They're notes to the programmer. Comments in python start with a # or have triple quotes around them)
 
