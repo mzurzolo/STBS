@@ -61,7 +61,9 @@ Some flash drives do not handle running an entire Operating System well (even if
 
   * If you DON'T see any of the words above, [open an issue](https://github.com/mzurzolo/STBS/issues).
 
-6. Once you successfully boot your flash drive, follow the setup prompts:
+#### First time setup
+
+* Once you successfully boot your flash drive, follow the setup prompts:
   * Set timezone and keyboard info
   ![rpd_timezone](Pictures/rpd_set_timezone.png)
   * You don't need to change your password unless you want to
