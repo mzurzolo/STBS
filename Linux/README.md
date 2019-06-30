@@ -25,8 +25,8 @@ Some flash drives do not handle running an entire Operating System well (even if
 #### Setting Up the Flash Drive
 
 1. Click [here](https://downloads.raspberrypi.org/rpd_x86_latest) to start the .iso file download. If you're given an option to save or open the file, save it.
-![RPD](Pictures/rpd_iso_download.png)
-2. After downloading the .iso file, burn it to a flash drive with Etcher, which can be downloaded [here](https://etcher.io/). Scroll down until you see assets, and pick the version compatible with your system. ![etcher_downloads](Pictures/etcher_downloads_screen.png)
+![RPD](Pictures/rpd_iso_download.jpg)
+2. After downloading the .iso file, burn it to a flash drive with Etcher, which can be downloaded [here](https://etcher.io/). Scroll down until you see assets, and pick the version compatible with your system. ![etcher_downloads](Pictures/etcher_downloads_screen.jpg)
 
       2.1. Select the image
 
@@ -63,14 +63,14 @@ Some flash drives do not handle running an entire Operating System well (even if
 
 6. Once you successfully boot your flash drive, follow the setup prompts:
   * Set timezone and keyboard info
-  ![rpd_timezone](Pictures/rpd_set_timezone.png)
+  ![rpd_timezone](Pictures/rpd_set_timezone.jpg)
   * You don't need to change your password unless you want to
-  ![rpd_change_password](Pictures/rpd_change_password.png)
+  ![rpd_change_password](Pictures/rpd_change_password.jpg)
   * If you see a black border around your screen, check the box
-  ![rpd_setup_screen](Pictures/rpd_setup_screen.png)
+  ![rpd_setup_screen](Pictures/rpd_setup_screen.jpg)
   * Setup wifi
-  ![rpd_wifi_password](Pictures/rpd_wifi_password.png)
+  ![rpd_wifi_password](Pictures/rpd_wifi_password.jpg)
   * You don't need to update software just yet, and it will prevent you from doing the next part of this guide until the update completes. You can hit skip, or just leave the window open and continue to the next python getting started guide. You also don't need to reboot your computer. You CAN update software and do the reboot, but it isn't necessary, and requires waiting.
-  ![rpd_software_update](Pictures/rpd_software_update.png)
+  ![rpd_software_update](Pictures/rpd_software_update.jpg)
 
 #### Continue to the [python getting started guide](../Python/README.md)
