@@ -25,8 +25,8 @@ Some flash drives do not handle running an entire Operating System well (even if
 #### Setting Up the Flash Drive
 
 1. Click [here](https://downloads.raspberrypi.org/rpd_x86_latest) to start the .iso file download. If you're given an option to save or open the file, save it.
-![RPD](Pictures/rpd_iso_download.png)
-2. After downloading the .iso file, burn it to a flash drive with Etcher, which can be downloaded [here](https://etcher.io/). Scroll down until you see assets, and pick the version compatible with your system. ![etcher_downloads](Pictures/etcher_downloads_screen.png)
+![RPD](Pictures/rpd_iso_download.jpg)
+2. After downloading the .iso file, burn it to a flash drive with Etcher, which can be downloaded [here](https://etcher.io/). Scroll down until you see assets, and pick the version compatible with your system. ![etcher_downloads](Pictures/etcher_downloads_screen.jpg)
 
       2.1. Select the image
 
@@ -61,7 +61,9 @@ Some flash drives do not handle running an entire Operating System well (even if
 
   * If you DON'T see any of the words above, [open an issue](https://github.com/mzurzolo/STBS/issues).
 
-6. Once you successfully boot your flash drive, follow the setup prompts:
+#### First time setup
+
+* Once you successfully boot your flash drive, follow the setup prompts:
   * Set timezone and keyboard info
   ![rpd_timezone](Pictures/rpd_set_timezone.png)
   * You don't need to change your password unless you want to

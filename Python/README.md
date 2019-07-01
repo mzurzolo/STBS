@@ -6,10 +6,10 @@
 #### Anaconda install guide:
 ##### This guide assumes you already followed [linux guide 1.a.](../Linux/README.md)
 1. Get the linux installer for x86_64. Click [here](https://repo.anaconda.com/archive/Anaconda3-2019.03-Linux-x86_64.sh) to start the download. When the download finishes, you'll see a warning that the file is unsafe. Click 'Keep', it's an installer and it's safe. You can continue to step 2 and 3 while you're waiting for this download to finish.
-  ![keep_this_file](Pictures/keep_this_file.png)
+  ![keep_this_file](Pictures/keep_this_file.jpg)
 2. Open a terminal
-  ![terminal](Pictures/terminal.png)
-  ![terminal2](Pictures/terminal2.png)
+  ![terminal](Pictures/terminal.jpg)
+  ![terminal2](Pictures/terminal2.jpg)
 3. Run these commands:
 
   * `sudo apt-get update ; sudo apt-get -y install libbz2-1.0:amd64 libgl1:amd64`
@@ -28,11 +28,11 @@
     * This will make sure your new anaconda environment is activated by default
 
 4. Make Chromium your default browser. Here are pictures to show you how:
-  ![default_browser1](Pictures/default_browser1.png)
-  ![default_browser2](Pictures/default_browser2.png)
-  ![default_browser3](Pictures/default_browser3.png)
-  ![default_browser4](Pictures/default_browser4.png)
-  ![default_browser5](Pictures/default_browser5.png)
+  ![default_browser1](Pictures/default_browser1.jpg)
+  ![default_browser2](Pictures/default_browser2.jpg)
+  ![default_browser3](Pictures/default_browser3.jpg)
+  ![default_browser4](Pictures/default_browser4.jpg)
+  ![default_browser5](Pictures/default_browser5.jpg)
 
 #### Next Steps:
 
