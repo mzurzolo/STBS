@@ -105,8 +105,8 @@ def plot_without_pandas():
         # See https://matplotlib.org/3.1.0/tutorials/introductory/pyplot.html
         # For more on plotting with matplotlib.pyplot
         plt.figure()
-        plt.plot(sin)
-        plt.plot(cos)
+        plt.plot(x, sin)
+        plt.plot(x, cos)
         plt.show()
 
 ###############################################################################

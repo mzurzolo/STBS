@@ -29,7 +29,7 @@
 #### Documentation:
 * Documentation is like a User's/Owner's manual
 * Most software packages/products have documentation
-* Good documentation includes quick start guides, examples, and a description of how to use the project (called an API)
+* Good documentation includes quick start guides, examples, and a description of how to use the software (called an API)
 * Relevant documentation will be linked in project directions, and in the comments of the projects themselves (comments are lines in a computer program that the computer ignores. They're notes to the programmer. Comments in python start with a # or have triple quotes around them)
 
 #### [Back to Home](https://skiptheboringstuff.com)

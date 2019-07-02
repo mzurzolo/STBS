@@ -26,7 +26,7 @@ CSV format (comma-separated values) and generate a chart with it. I will present
 
 #### Exercises:
 * Change the color and line style of the graphs
-* Add a titles and axis labels
+* Add a title and axis labels
 * Replace inputs/data.csv with your own data. You can create a table in Excel (or Google Sheets) and export it as a csv.
 
 #### Resources for the exercises:

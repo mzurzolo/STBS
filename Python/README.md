@@ -28,7 +28,7 @@
     * This will make sure your new anaconda environment is activated by default
 
 
-4. Make Chromium your default browser. Here are pictures to show you how:
+* Make Chromium your default browser. Here are pictures to show you how:
   ![default_browser1](Pictures/default_browser1.png)
   ![default_browser2](Pictures/default_browser2.png)
   ![default_browser3](Pictures/default_browser3.png)
