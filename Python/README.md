@@ -27,6 +27,7 @@
   * `conda init ; source .bashrc`
     * This will make sure your new anaconda environment is activated by default
 
+
 4. Make Chromium your default browser. Here are pictures to show you how:
   ![default_browser1](Pictures/default_browser1.png)
   ![default_browser2](Pictures/default_browser2.png)
@@ -47,3 +48,4 @@ This website, and all the guides and projects displayed here, live in a code rep
 2. Get any updates: `git pull`
 
 #### Continue to [python project notes](Projects/README.md)
+#### [Back to Home](https://skiptheboringstuff.com)

@@ -8,6 +8,21 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
+"""After the import statements, I define two functions: plot_with_pandas and
+plot_without_pandas. Function definitions start with the word 'def' and
+end when the indentation ends. For example:
+
+
+def indent_example():
+    print("This line is part of the function 'indent_example' because it's indented")
+
+    print("This line is still part of the function 'indent_example'")
+    print("Blank lines do not end the current level of indentation")
+
+print("This line is not part of the function 'indent_example' because it's not indented")
+
+
+"""
 
 def plot_with_pandas():
     """Generate plot, using pandas."""
@@ -42,23 +57,37 @@ def plot_without_pandas():
         # actual data. By calling file.readline() on the file, I skip
         # past the column names
         column_names = file.readline()
+        # Notice how the indentation level increased (an it increases again below)
+        # In python, lines of code are grouped by indentation level.
         print(column_names)
-        # this will loop through each line in the file
+        # this will loop through each line in the file.
+        # each indented line of code will run once for every line of data in data.csv
+
         for line in file:
             # Split each line into a list of values,
             # using a comma as the separation point
             split_line = line.split(",")
+            # These next lines store the values in split_line to temporary
+            # variables. Counting typically starts at 0 for most programming
+            # languages.
+            x_temp = split_line[0]  # This line means:
+                                    # "take the first value in split_line, and call it x_temp"
+            y_temp = split_line[1]
+            sin_temp = split_line[2]
+            cos_temp = split_line[3]
 
-            x_temp = split_line[0].strip()
-            y_temp = split_line[1].strip()
-            sin_temp = split_line[2].strip()
-            cos_temp = split_line[3].strip()
-
+            # These next lines make sure our temporary variables are being
+            # stored as numbers. 'float' is short for 'floating-point decimal'
+            # Think of these lines as saying:
+            #   "Our temporary variables hold numbers that may have a decimal"
             x_temp = float(x_temp)
             y_temp = float(y_temp)
             sin_temp = float(sin_temp)
             cos_temp = float(cos_temp)
 
+            # These next lines will add our temporary variables to the end of
+            # our lists (we created them above.)
+            # Every time this loop runs, our lists will grow by 1 element.
             x.append(x_temp)
             y.append(y_temp)
             sin.append(sin_temp)
@@ -69,6 +98,10 @@ def plot_without_pandas():
             # press 'enter'. To pause the loop and print the list x,
             # remove the # from the line below:
             #input(x)
+
+            # This is the end of the loop. The next lines only run after the
+            # loop is finished.
+
         # See https://matplotlib.org/3.1.0/tutorials/introductory/pyplot.html
         # For more on plotting with matplotlib.pyplot
         plt.figure()
@@ -76,12 +109,9 @@ def plot_without_pandas():
         plt.plot(cos)
         plt.show()
 
-
-def main():
-    """Run both functions that generate plots."""
-    plot_with_pandas()
-    plot_without_pandas()
-
-
-if __name__ == "__main__":
-    main()
+###############################################################################
+# These next lines 'call' the functions defined above.
+# If you erase the lines below (or put a # in front of them) this code won't
+# 'do' anything (it won't generate graphs anymore.)
+plot_with_pandas()
+plot_without_pandas()

@@ -24,11 +24,21 @@ CSV format (comma-separated values) and generate a chart with it. I will present
 ![jupyterlab_splitscreen](../Pictures/jupyterlab_splitscreen.png)
 * Having a split window like this makes it easier to edit the code you're working on, save changes, and test them. Just type `python project1.py` and hit enter to run the project. ![jupyterlab_run_project](../Pictures/jupyterlab_run_project.png)
 
-#### Relevant Documentation:
-[The Python Tutorial](https://docs.python.org/3/tutorial/index.html)
+#### Exercises:
+* Change the color and line style of the graphs
+* Add a titles and axis labels
+* Replace inputs/data.csv with your own data. You can create a table in Excel (or Google Sheets) and export it as a csv.
+
+#### Resources for the exercises:
 
 [Plotting with matplotlib.pyplot](https://matplotlib.org/3.1.0/tutorials/introductory/pyplot.html)
 
+[Pandas plot function (for dataframes) API entry](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.plot.html?highlight=plot#pandas.DataFrame.plot)
+
+#### Other Resources:
+
+[The Python Tutorial](https://docs.python.org/3/tutorial/index.html)
+
 [Pandas read_csv function API entry](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html)
 
-[Pandas plot function (for dataframes) API entry](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.plot.html?highlight=plot#pandas.DataFrame.plot)
+#### [Back to Home](https://skiptheboringstuff.com)

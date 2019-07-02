@@ -76,3 +76,4 @@ Some flash drives do not handle running an entire Operating System well (even if
   ![rpd_software_update](Pictures/rpd_software_update.png)
 
 #### Continue to the [python getting started guide](../Python/README.md)
+#### [Back to Home](https://skiptheboringstuff.com)
