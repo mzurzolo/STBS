@@ -6,7 +6,7 @@ Every computer has some form of storage (usually a hard drive) where the Operati
 
 These instructions will likely seem foreign to newcomers. Some of the directions may seem too general to actually follow (especially steps 4 and 5). This setup guide is much easier to understand once you've followed it successfully once (the first time is way harder than the second).
 
-*Please* [open an issue](https://github.com/mzurzolo/STBS/issues) to get help. Clicking that link will allow you to submit questions directly, and will help make this guide more usable in the future. This page alone has over 50% of the potential pitfalls for this project. Ask for help, don't get discouraged.
+*Please* [open an issue](https://github.com/mzurzolo/STBS/issues) to get help. (You can also email me at mike@skiptheboringstuff.com) Clicking that link will allow you to submit questions directly, and will help make this guide more usable in the future. This page alone has over 50% of the potential pitfalls for this project. Ask for help, don't get discouraged.
 
 #### Recommended Linux Distribution
 
@@ -41,7 +41,7 @@ Some flash drives do not handle running an entire Operating System well (even if
       ![Etcher3](Pictures/etcher3.png)
 
 3. After flash is complete, reboot your computer without removing the flash drive
-##### Warning: Steps 4 and 5 can be hard to follow because they are heavily dependent on the computer being used. They are also done before your computer is fully booted, and therefore vulnerable to destructive accidents. If you are unsure, DON'T GUESS. [Open an issue](https://github.com/mzurzolo/STBS/issues) with your computer brand (Dell, HP, etc.) and model number, and specific instructions for your system will be provided. If you don't know your computer's model number, open an issue with as much information as you can, and I'll try my best to figure it out, and then provide specific instructions.
+##### Warning: Steps 4 and 5 can be hard to follow because they are heavily dependent on the computer being used. They are also done before your computer is fully booted, and therefore vulnerable to destructive accidents. If you are unsure, DON'T GUESS. [Open an issue](https://github.com/mzurzolo/STBS/issues) (or email me mike@skiptheboringstuff.com) with your computer brand (Dell, HP, etc.) and model number, and specific instructions for your system will be provided. If you don't know your computer's model number, open an issue with as much information as you can, and I'll try my best to figure it out, and then provide specific instructions.
 
 4. While the computer is starting up, you need to access the boot menu, which is only available for a short window of time during a reboot.
 
@@ -59,7 +59,7 @@ Some flash drives do not handle running an entire Operating System well (even if
 
   * If you see "One time boot menu", or "UEFI", you're likely in the right place. Look for an option that has "UEFI:<your flash drive's brand name>", "UEFI:<your flash drive's brand name> Partition 1", "USB", "USB Hard disk", or some other indication that it's your newly-created flash drive. Select this option.
 
-  * If you DON'T see any of the words above, [open an issue](https://github.com/mzurzolo/STBS/issues).
+  * If you DON'T see any of the words above, [open an issue](https://github.com/mzurzolo/STBS/issues) (or email me mike@skiptheboringstuff.com).
 
 #### First time setup
 
