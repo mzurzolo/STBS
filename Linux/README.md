@@ -1,4 +1,4 @@
-# Linux Resources
+## Linux Resources
 
 Linux is an Operating System, like Windows or OSX. It is free to download and use, and it is an incredibly useful tool for engineering and related technical fields. This guide involves downloading a version (distribution) of linux, installing it to a flash drive (called flashing, or burning), and telling your computer to treat your newly-prepared flash drive as a hard drive (booting the flash drive).
 
@@ -61,9 +61,7 @@ Some flash drives do not handle running an entire Operating System well (even if
 
 5. Once you have the boot menu up, you need to tell the computer to boot your newly-created flash drive. These menu options vary from one computer to another, but here are some general notes/things to look for:
 
-  - If you see "One time boot menu", or "UEFI", you're likely in the right place. Look for an option that has "UEFI:
-
-    <your flash="" drive's="" brand="" name="">", "UEFI:<your flash="" drive's="" brand="" name=""> Partition 1", "USB", "USB Hard disk", or some other indication that it's your newly-created flash drive. Select this option.</your></your>
+  - If you see "One time boot menu", or "UEFI", you're likely in the right place. Look for an option that has "UEFI:(your flash drive's brand name)", "UEFI:(your flash drive's brand name) Partition 1", "USB", "USB Hard disk", or some other indication that it's your newly-created flash drive. Select this option.
 
   - If you DON'T see any of the words above, [open an issue](https://github.com/mzurzolo/STBS/issues) (or email me mike@skiptheboringstuff.com).
 

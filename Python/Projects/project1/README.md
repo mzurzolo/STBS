@@ -1,6 +1,6 @@
-# Project 1
+## Project 1
 
-## If you haven't already, please read [project notes](../README.md).
+### If you haven't already, please read [project notes](../README.md).
 
 ## Goal: First project setup, generate plot.
 

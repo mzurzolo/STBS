@@ -1,4 +1,4 @@
-# Python Resources
+## Python Resources
 
 ## Recommended Python Distribution
 
