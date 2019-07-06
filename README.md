@@ -5,10 +5,8 @@ We all learned to speak before we knew parts of speech; we could all add before 
 ## Getting Started
 
 1. Linux
-
   - [On a Flash Drive](Linux/README.md)
   - [On a Raspberry Pi](RaspberryPi/README.md)
-
 2. [Python](Python/README.md)
 
 ## Projects
