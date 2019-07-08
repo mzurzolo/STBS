@@ -75,6 +75,6 @@ Some flash drives do not handle running an entire Operating System well (even if
   - Setup wifi ![rpd_wifi_password](Pictures/rpd_wifi_password.png)
   - You don't need to update software just yet, and it will prevent you from doing the next part of this guide until the update completes. You can hit skip, or just leave the window open and continue to the next python getting started guide. You also don't need to reboot your computer. You CAN update software and do the reboot, but it isn't necessary, and requires waiting. ![rpd_software_update](Pictures/rpd_software_update.png)
 
-## Continue to the [python getting started guide](../Python/README.md)
+#### Continue to the [python getting started guide](../Python/README.md)
 
-## [Back to Home](https://skiptheboringstuff.com)
+#### [Back to Home](https://skiptheboringstuff.com)
