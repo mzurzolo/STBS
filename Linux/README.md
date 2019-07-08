@@ -26,7 +26,7 @@ Some flash drives do not handle running an entire Operating System well (even if
 
 ## Setting Up the Flash Drive
 
-1. Click [here](https://downloads.raspberrypi.org/rpd_x86_latest) to start the .iso file download. If you're given an option to save or open the file, save it. ![RPD](Pictures/rpd_iso_download.png)
+1. Click [here](http://downloads.raspberrypi.org/rpd_x86/images/rpd_x86-2019-04-12/2019-04-11-rpd-x86-stretch.iso) to start the .iso file download. If you're given an option to save or open the file, save it. ![RPD](Pictures/rpd_iso_download.png)
 2. After downloading the .iso file, burn it to a flash drive with Etcher, which can be downloaded [here](https://etcher.io/). Scroll down until you see assets, and pick the version compatible with your system. ![etcher_downloads](Pictures/etcher_downloads_screen.png)
 
   2.1\. Select the image
