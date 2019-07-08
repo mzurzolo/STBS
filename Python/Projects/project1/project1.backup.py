@@ -34,7 +34,7 @@ def plot_with_pandas():
     df = pd.read_csv("inputs/data.csv")
 
     df.plot(x='x', y=['sin', 'cos'])
-    plt.show()
+    plt.show(block=False)
 
 
 def plot_without_pandas():
@@ -107,7 +107,7 @@ def plot_without_pandas():
         plt.figure()
         plt.plot(x, sin)
         plt.plot(x, cos)
-        plt.show()
+        plt.show(block=False)
 
 ###############################################################################
 # These next lines 'call' the functions defined above.
@@ -115,3 +115,4 @@ def plot_without_pandas():
 # 'do' anything (it won't generate graphs anymore.)
 plot_with_pandas()
 plot_without_pandas()
+input("Press enter to close the graphs and end the program")
