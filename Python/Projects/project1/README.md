@@ -4,7 +4,7 @@
 
 ## Goal: First project setup, generate plot.
 
-In this example, I will be showing you how to take a data file in CSV format (comma-separated values) and generate a chart with it. I will present two ways to do it, using two different python packages.
+In this example, I will be showing you how to take a data file in CSV format (comma-separated values) and generate a chart with it. I will present one way to do it here, and a different way to do it in project2.
 
 ## Project Setup:
 
@@ -32,14 +32,16 @@ In this example, I will be showing you how to take a data file in CSV format (co
 
 ## Resources for the exercises:
 
-[Plotting with matplotlib.pyplot](https://matplotlib.org/3.1.0/tutorials/introductory/pyplot.html)
-
 [Pandas plot function (for dataframes) API entry](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.plot.html?highlight=plot#pandas.DataFrame.plot)
+
+[Plotting with matplotlib.pyplot](https://matplotlib.org/3.1.0/tutorials/introductory/pyplot.html)
 
 ## Other Resources:
 
 [The Python Tutorial](https://docs.python.org/3/tutorial/index.html)
 
 [Pandas read_csv function API entry](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html)
+
+#### [On to project2](../project2/README.md)
 
 #### [Back to Home](https://skiptheboringstuff.com)
