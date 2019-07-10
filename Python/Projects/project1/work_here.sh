@@ -50,9 +50,10 @@ fi
 # exists.
 source py3/bin/activate
 
-# This prints a message to your command line. \n means 'newline'
-# which just prints a blank line, and \" means 'print the literal quote symbol'
-printf "\nRemember to run \"deactivate\" when you're done with this project\n\n"
+# This starts jupyter lab in your browser. Starting jupyter lab from the script
+# Makes sure that when you stop jupyter lab, you don't need to deactivate your
+# environment
+jupyter lab
 
 # Note 1: The p flag also creates parent directories as needed, but that's not
 # a relevant detail for how I'm using it here. Parent directories are folders

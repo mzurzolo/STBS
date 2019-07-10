@@ -19,4 +19,4 @@ fi
 
 source py3/bin/activate
 
-printf "\nRemember to run \"deactivate\" when you're done with this project\n\n"
+jupyter lab
