@@ -29,21 +29,20 @@ Some flash drives do not handle running an entire Operating System well (even if
 1. Click [here](https://downloads.raspberrypi.org/rpd_x86_latest) to start the .iso file download. If you're given an option to save or open the file, save it. ![RPD](Pictures/rpd_iso_download.png)
 2. After downloading the .iso file, burn it to a flash drive with Etcher, which can be downloaded [here](https://etcher.io/). Scroll down until you see assets, and pick the version compatible with your system. ![etcher_downloads](Pictures/etcher_downloads_screen.png)
 
-  2.1\. Select the image
+    2.1. Select the image
 
-  ![Etcher1](Pictures/etcher.png)
+    ![Etcher1](Pictures/etcher.png)
 
-  2.2\. Select the flash drive (insert the flash drive into your computer if you haven't already.)
+    2.2. Select the flash drive (insert the flash drive into your computer if you haven't already.)
 
-  ![Etcher2](Pictures/etcher2.png)
+    ![Etcher2](Pictures/etcher2.png)
 
-  2.3\. Flash it
+    2.3. Flash it
 
-  ![Etcher3](Pictures/etcher3.png)
-
+    ![Etcher3](Pictures/etcher3.png)
 3. After flash is complete, reboot your computer without removing the flash drive
 
-  ##### Warning: Steps 4 and 5 can be hard to follow because they are heavily dependent on the computer being used. They are also done before your computer is fully booted, and therefore vulnerable to destructive accidents. If you are unsure, DON'T GUESS. [open an issue](https://github.com/mzurzolo/STBS/issues) or [submit a question](QuestionForm.md) with your computer brand (Dell, HP, etc.) and model number, and specific instructions for your system will be provided. If you don't know your computer's model number, open an issue with as much information as you can, and I'll try my best to figure it out, and then provide specific instructions.
+#### Warning: Steps 4 and 5 can be hard to follow because they are heavily dependent on the computer being used. They are also done before your computer is fully booted, and therefore vulnerable to destructive accidents. If you are unsure, DON'T GUESS. [open an issue](https://github.com/mzurzolo/STBS/issues) or [submit a question](QuestionForm.md) with your computer brand (Dell, HP, etc.) and model number, and specific instructions for your system will be provided. If you don't know your computer's model number, open an issue with as much information as you can, and I'll try my best to figure it out, and then provide specific instructions.
 
 4. While the computer is starting up, you need to access the boot menu, which is only available for a short window of time during a reboot.
 
@@ -52,10 +51,6 @@ Some flash drives do not handle running an entire Operating System well (even if
   - You should hit the F# key as soon as you see the first logo appear on your screen, and you may need to hit it more than once.
 
   - Pay attention to any text that may flash on the screen. Sometimes it will tell you what F key to hit.
-
-  - Searching "
-
-    <computer type="" model=""> access boot menu" will usually give clear instructions.</computer>
 
   - Mac users should follow [this guide](https://support.apple.com/en-us/HT202796)
 
