@@ -26,25 +26,19 @@ Some flash drives do not handle running an entire Operating System well (even if
 
 ## Setting Up the Flash Drive
 
-1. Click [here](https://downloads.raspberrypi.org/rpd_x86_latest) to start the .iso file download. If you're given an option to save or open the file, save it. ![RPD](Pictures/rpd_iso_download.png)
-2. After downloading the .iso file, burn it to a flash drive with Etcher, which can be downloaded [here](https://etcher.io/). Scroll down until you see assets, and pick the version compatible with your system. ![etcher_downloads](Pictures/etcher_downloads_screen.png)
-
-    1. Select the image
-
+* Click [here](https://downloads.raspberrypi.org/rpd_x86_latest) to start the .iso file download. If you're given an option to save or open the file, save it. ![RPD](Pictures/rpd_iso_download.png)
+* After downloading the .iso file, burn it to a flash drive with Etcher, which can be downloaded [here](https://etcher.io/). Scroll down until you see assets, and pick the version compatible with your system. ![etcher_downloads](Pictures/etcher_downloads_screen.png)
+    - Select the image
     ![Etcher1](Pictures/etcher.png)
-
-    2. Select the flash drive (insert the flash drive into your computer if you haven't already.)
-
+    - Select the flash drive (insert the flash drive into your computer if you haven't already.)
     ![Etcher2](Pictures/etcher2.png)
-
-    3. Flash it
-
+    - Flash it
     ![Etcher3](Pictures/etcher3.png)
-3. After flash is complete, reboot your computer without removing the flash drive
+* After flash is complete, reboot your computer without removing the flash drive
 
-  #### Warning: Steps 4 and 5 can be hard to follow because they are heavily dependent on the computer being used. They are also done before your computer is fully booted, and therefore vulnerable to destructive accidents. If you are unsure, DON'T GUESS. [open an issue](https://github.com/mzurzolo/STBS/issues) or [submit a question](QuestionForm.md) with your computer brand (Dell, HP, etc.) and model number, and specific instructions for your system will be provided. If you don't know your computer's model number, open an issue with as much information as you can, and I'll try my best to figure it out, and then provide specific instructions.
+##### Warning: Steps 4 and 5 can be hard to follow because they are heavily dependent on the computer being used. They are also done before your computer is fully booted, and therefore vulnerable to destructive accidents. If you are unsure, DON'T GUESS. [open an issue](https://github.com/mzurzolo/STBS/issues) or [submit a question](QuestionForm.md) with your computer brand (Dell, HP, etc.) and model number, and specific instructions for your system will be provided. If you don't know your computer's model number, open an issue with as much information as you can, and I'll try my best to figure it out, and then provide specific instructions.
 
-4. While the computer is starting up, you need to access the boot menu, which is only available for a short window of time during a reboot.
+* While the computer is starting up, you need to access the boot menu, which is only available for a short window of time during a reboot.
 
   - The boot menu can usually be accessed by hitting one of the F# keys during the first stages of startup. Try F12 first. (F12, F11, F10, and F2, are all commonly used keys for accessing boot menus)
 
@@ -54,7 +48,7 @@ Some flash drives do not handle running an entire Operating System well (even if
 
   - Mac users should follow [this guide](https://support.apple.com/en-us/HT202796)
 
-5. Once you have the boot menu up, you need to tell the computer to boot your newly-created flash drive. These menu options vary from one computer to another, but here are some general notes/things to look for:
+* Once you have the boot menu up, you need to tell the computer to boot your newly-created flash drive. These menu options vary from one computer to another, but here are some general notes/things to look for:
 
   - If you see "One time boot menu", or "UEFI", you're likely in the right place. Look for an option that has "UEFI:(your flash drive's brand name)", "UEFI:(your flash drive's brand name) Partition 1", "USB", "USB Hard disk", or some other indication that it's your newly-created flash drive. Select this option.
 
