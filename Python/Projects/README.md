@@ -7,14 +7,14 @@
 
   I will provide a quick command to get you to the project. _example: `cd ~/STBS/Python/Projects/project1`_
 
-  and a 'setup script' to automate some setup tasks. This script will always be called _work_here.sh_, and the command to run it is: `./work_here.sh`
+  and a 'setup script' to automate some setup tasks. This script will always be called _work_here.sh_, and the command to run it is: `source work_here.sh`
 
 ## Project Layout:
 
 - Each project will be in its own folder, under STBS/Python/Projects
 - Each project folder will contain:
 
-  - A setup script for the project: `./work_here.sh`
+  - A setup script for the project: `work_here.sh`
   - The main program file/the starting point of the project. It will end in .py: `project1.py`
   - A backup of the project file, just in case: `project1.backup.py`
   - Input and output folders, if necessary: `inputs` `outputs`

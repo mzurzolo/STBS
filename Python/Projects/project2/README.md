@@ -10,7 +10,7 @@ In this example, I will be showing you how to take a data file in CSV format (co
 
 - Open a terminal window
 - Navigate to the project directory: `cd ~/STBS/Python/Projects/project2`
-- Run the Project Setup Script: `./work_here.sh`
+- Run the Project Setup Script: `source work_here.sh`
 
 ## Exercises:
 
