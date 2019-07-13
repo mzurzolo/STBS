@@ -12,7 +12,9 @@
 * Open a terminal ![terminal](Pictures/terminal.png) ![terminal2](Pictures/terminal2.png)
 * Run these commands:
 
-  - `sudo apt-get update ; sudo apt-get -y install libbz2-1.0:amd64 libgl1:amd64`
+  - `sudo apt-get update`
+  - `sudo apt-get -y install libbz2-1.0:amd64`
+  - `sudo apt-get -y install libgl1:amd64`
 
     - These commands will install packages you need to install anaconda. You can paste things into a terminal with right click + paste, or ctrl-shift-v (regular ctrl-v doesn't work). Do not run the next command until the Anaconda download finishes.
 
@@ -46,7 +48,7 @@ This website, and all the guides and projects displayed here, live in a code rep
 
 #### To get the most updated version of the projects (you don't need to run these commands now. If you just cloned the repository, you have the latest version.):
 
-* Change directory to STBS: `cd ./STBS`
+* Change directory to STBS: `cd ~/STBS`
 * Get any updates: `git pull`
 
 #### Continue to [python project notes](Projects/README.md)

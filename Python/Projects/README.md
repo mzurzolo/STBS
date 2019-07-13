@@ -1,11 +1,11 @@
 ## Project Notes
 
-## Assumptions:
+## Starting a Project:
 
-1. I will assume you have Anaconda, and you have cloned this repository with `git clone https://github.com/mzurzolo/STBS.git`
-2. I will assume you are starting each new project by opening a new terminal window. _If you don't want to open a new terminal window, the command `cd` on its own will bring you back to your home directory, and the command `deactivate` will reset your 'python environment' (more on that later)._
+* I will assume you have Anaconda, and you have cloned this repository with
 
-  I will provide a quick command to get you to the project. _example: `cd ~/STBS/Python/Projects/project1`_
+`git clone https://github.com/mzurzolo/STBS.git`
+* I will provide a quick command to get you to the project. _example: `cd ~/STBS/Python/Projects/project1`_
 
   and a 'setup script' to automate some setup tasks. This script will always be called _work_here.sh_, and the command to run it is: `source work_here.sh`
 

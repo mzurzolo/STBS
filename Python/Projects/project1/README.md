@@ -9,7 +9,9 @@ In this example, I will be showing you how to take a data file in CSV format (co
 ## Project Setup:
 
 - Open a terminal window
-- Navigate to the project directory: `cd ~/STBS/Python/Projects/project1`
+- Navigate to the project directory:
+
+`cd ~/STBS/Python/Projects/project1`
 - Run the Project Setup Script: `source work_here.sh`
 
 ## Using Jupyter Lab:
@@ -37,7 +39,7 @@ In this example, I will be showing you how to take a data file in CSV format (co
 
 ## Other Resources:
 
-[The Python Tutorial](https://docs.python.org/3/tutorial/index.html)
+[The Python Tutorial](https://docs.python.org/3/tutorial/introduction.html#using-python-as-a-calculator)
 
 [Pandas read_csv function API entry](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html)
 

@@ -9,7 +9,9 @@ In this example, I will be showing you how to take a data file in CSV format (co
 ## Project Setup:
 
 - Open a terminal window
-- Navigate to the project directory: `cd ~/STBS/Python/Projects/project2`
+- Navigate to the project directory:
+
+`cd ~/STBS/Python/Projects/project2`
 - Run the Project Setup Script: `source work_here.sh`
 
 ## Exercises:
@@ -24,6 +26,6 @@ In this example, I will be showing you how to take a data file in CSV format (co
 
 ## Other Resources:
 
-[The Python Tutorial](https://docs.python.org/3/tutorial/index.html)
+[The Python Tutorial](https://docs.python.org/3/tutorial/introduction.html#using-python-as-a-calculator)
 
 #### [Back to Home](https://skiptheboringstuff.com)
