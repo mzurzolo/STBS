@@ -6,7 +6,7 @@ Every computer has some form of storage (usually a hard drive) where the Operati
 
 These instructions will likely seem foreign to newcomers. Some of the directions may seem too general to actually follow (especially steps 4 and 5). This setup guide is much easier to understand once you've followed it successfully once (the first time is way harder than the second).
 
-_Please_ [open an issue (requires a github account)](https://github.com/mzurzolo/STBS/issues) or [submit a question (requires an email address)](QuestionForm.md). to get help. (You can also email me at mike@skiptheboringstuff.com) Clicking that link will allow you to submit questions directly, and will help make this guide more usable in the future. This page alone has over 50% of the potential pitfalls for this project. Ask for help, don't get discouraged.
+To get help: [submit a question (requires an email address)](QuestionForm.md) or [open an issue (requires a github account)](https://github.com/mzurzolo/STBS/issues). (You can also email me at mike@skiptheboringstuff.com) This page alone has over 50% of the potential pitfalls for this project. Ask for help, don't get discouraged.
 
 ## Recommended Linux Distribution
 
@@ -28,21 +28,22 @@ Some flash drives do not handle running an entire Operating System well (even if
 
 * Click [here](https://downloads.raspberrypi.org/rpd_x86_latest) to start the .iso file download. Use [Google Chrome](https://www.google.com/chrome/) as your web browser when you start the download. If you're given an option to save or open the file, save it. ![RPD](Pictures/rpd_iso_download.png)
 * After downloading the .iso file, burn it to a flash drive with Etcher, which can be downloaded [here](https://etcher.io/). Scroll down until you see assets, and pick the version compatible with your system. ![etcher_downloads](Pictures/etcher_downloads_screen.png)
-    - Select the image
+    - Select the .iso file (it should be in your Downloads folder)
     ![Etcher1](Pictures/etcher.png)
     - Select the flash drive (insert the flash drive into your computer if you haven't already.)
     ![Etcher2](Pictures/etcher2.png)
     - Flash it
     ![Etcher3](Pictures/etcher3.png)
-* After flash is complete, reboot your computer without removing the flash drive
 
-##### Warning: Steps 4 and 5 can be hard to follow because they are heavily dependent on the computer being used. They are also done before your computer is fully booted, and therefore vulnerable to destructive accidents. If you are unsure, DON'T GUESS. [open an issue](https://github.com/mzurzolo/STBS/issues) or [submit a question](QuestionForm.md) with as much information about your computer (brand, model number, etc) as you can provide. Specific instructions for your system will be provided.
+##### Warning: The next steps vary by computer type. If you find them hard to follow, or if you are unsure, DON'T GUESS. [submit a question](QuestionForm.md) or [open an issue](https://github.com/mzurzolo/STBS/issues) with as much information about your computer (brand, model number, etc) as you can provide. Specific instructions for your system will be provided. Read until you see "First Time Setup" below
+
+* After flash is complete, reboot your computer without removing the flash drive
 
 * While the computer is starting up, you need to access the boot menu, which is only available for a short window of time during a reboot.
 
-  - The boot menu can usually be accessed by hitting one of the F# keys during the first stages of startup. Try F12 first. (F12, F11, F10, and F2, are all commonly used keys for accessing boot menus)
+  - The boot menu can usually be accessed by holding one of the F# keys during the first stages of startup. Try F12 first. If that doesn't work, try hold Esc.
 
-  - You should hit the F# key as soon as you see the first logo appear on your screen, and you may need to hit it more than once.
+  - You should hold the F# key (or Esc) as soon as you see the first logo appear on your screen.
 
   - Pay attention to any text that may flash on the screen. Sometimes it will tell you what F key to hit. Look in the corners.
 
@@ -50,9 +51,9 @@ Some flash drives do not handle running an entire Operating System well (even if
 
 * Once you have the boot menu up, you need to tell the computer to boot your newly-created flash drive. These menu options vary from one computer to another, but here are some general notes/things to look for:
 
-  - If you see "One time boot menu", or "UEFI", you're likely in the right place. Look for an option that has "UEFI:(your flash drive's brand name)", "UEFI:(your flash drive's brand name) Partition 1", "USB", "USB Hard disk", or some other indication that it's your newly-created flash drive. Select this option.
+  - If you see "One time boot menu" you're in the right place. Look for an option that has "UEFI:(your flash drive's brand name)". Select this option.
 
-  - If you DON'T see any of the words above, [open an issue](https://github.com/mzurzolo/STBS/issues) or [submit a question](QuestionForm.md).
+  - If you DON'T see any of the words above, [submit a question](QuestionForm.md) or [open an issue](https://github.com/mzurzolo/STBS/issues).
 
 ## First time setup
 
