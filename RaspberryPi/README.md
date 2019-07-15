@@ -6,6 +6,6 @@ Use the Raspberry Pi Foundation's [NOOBS](https://www.raspberrypi.org/downloads/
 * Follow the getting started guide from the Raspberry Pi Foundation. They provide a [webpage guide](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up)
 
 And a getting started video:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wjWZhV1v3Pk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/wjWZhV1v3Pk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 #### [Back to Home](https://skiptheboringstuff.com)

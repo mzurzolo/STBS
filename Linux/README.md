@@ -4,9 +4,7 @@ Linux is an Operating System, like Windows or OSX. It is free to download and us
 
 Every computer has some form of storage (usually a hard drive) where the Operating System is installed. When you start your computer, it looks for an Operating System, and it usually finds one on the hard drive. For a short window of time (usually a few seconds), you can stop your computer from searching, and tell it to look for an Operating System on your flash drive first.
 
-These instructions will likely seem foreign to newcomers. Some of the directions may seem too general to actually follow (especially steps 4 and 5). This setup guide is much easier to understand once you've followed it successfully once (the first time is way harder than the second).
-
-To get help: [submit a question (requires an email address)](QuestionForm.md) or [open an issue (requires a github account)](https://github.com/mzurzolo/STBS/issues). (You can also email me at mike@skiptheboringstuff.com) This page alone has over 50% of the potential pitfalls for this project. Ask for help, don't get discouraged.
+To get help: [submit a question (requires an email address)](QuestionForm.md) or [open an issue (requires a github account)](https://github.com/mzurzolo/STBS/issues). (You can also email me at mike@skiptheboringstuff.com)
 
 ## Recommended Linux Distribution
 

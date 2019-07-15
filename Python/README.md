@@ -8,7 +8,7 @@
 
 ### This guide assumes you already followed [linux guide 1.a.](../Linux/README.md)
 
-* Get the linux installer for x86_64\. Click [here](https://repo.anaconda.com/archive/Anaconda3-2019.03-Linux-x86_64.sh) to start the download. When the download finishes, you'll see a warning that the file is unsafe. Click 'Keep', it's an installer and it's safe. You can continue to step 2 and 3 while you're waiting for this download to finish. ![keep_this_file](Pictures/keep_this_file.png)
+* Get the linux installer for x86_64\. Click [here](https://repo.anaconda.com/archive/Anaconda3-2019.03-Linux-x86_64.sh) to start the download. When the download finishes, you'll see a warning that the file is unsafe. Click 'Keep', it's an installer and it's safe. You can continue on while you're waiting for this download to finish. ![keep_this_file](Pictures/keep_this_file.png)
 * Open a terminal ![terminal](Pictures/terminal.png) ![terminal2](Pictures/terminal2.png)
 * Run these commands:
 
@@ -16,7 +16,9 @@
   - `sudo apt-get -y install libbz2-1.0:amd64`
   - `sudo apt-get -y install libgl1:amd64`
 
-    - These commands will install packages you need to install anaconda. You can paste things into a terminal with right click + paste, or ctrl-shift-v (regular ctrl-v doesn't work). Do not run the next command until the Anaconda download finishes.
+    - These commands will install packages you need to install anaconda. You can paste things into a terminal with right click + paste, or ctrl-shift-v (regular ctrl-v doesn't work).
+
+- ##### Do not run the next command until the Anaconda download finishes.
 
   - `chmod +x Downloads/Anaconda3-2019.03-Linux-x86_64.sh`
 
