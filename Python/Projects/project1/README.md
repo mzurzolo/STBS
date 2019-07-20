@@ -33,7 +33,7 @@ In this example, I will be showing you how to take a data file in CSV format (co
 
 ## Resources for the exercises:
 
-[Pandas plot function (for dataframes) API entry](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.plot.html?highlight=plot#pandas.DataFrame.plot)
+[Pandas plot function (for dataframes) API entry](https://pandas.pydata.org/pandas-docs/version/0.24/reference/api/pandas.DataFrame.plot.html#pandas.DataFrame.plot)
 
 [Plotting with matplotlib.pyplot](https://matplotlib.org/3.1.0/tutorials/introductory/pyplot.html)
 
@@ -41,7 +41,7 @@ In this example, I will be showing you how to take a data file in CSV format (co
 
 [The Python Tutorial](https://docs.python.org/3/tutorial/introduction.html#using-python-as-a-calculator)
 
-[Pandas read_csv function API entry](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html)
+[Pandas read_csv function API entry](https://pandas.pydata.org/pandas-docs/version/0.24/reference/api/pandas.read_csv.html)
 
 #### [On to project2](../project2/README.md)
 
