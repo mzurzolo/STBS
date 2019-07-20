@@ -56,11 +56,29 @@ def plot_with_pandas():
     plt.show(block=False)
 
 
+def generate_new_data():
+    """Generate new data."""
+    # In this function, I'll show you a few ways to generate data.
+
+    x = range(1000)
+    print(x)
+    # Here's a way to create data using numpy:
+    y = np.linspace(0, 100, 1000)
+    # y = np.arange(0, 1000)
+    print(x[-1])
+    print(y[-1])
+    print(len(x))
+    print(len(y))
+    #
+
+
 ###############################################################################
 # These next lines 'call' the functions defined above.
 # If you erase the lines below (or put a # in front of them) this code won't
 # 'do' anything (it won't generate a graph anymore.)
-plot_with_pandas()
+# plot_with_pandas()
+generate_new_data()
+
 input("Press enter to close the graph (if it's still open) and end the program")
 
 # This program is broken into three parts:

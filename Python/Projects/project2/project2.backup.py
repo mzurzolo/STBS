@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 
 ###############################################################################
 
+
 def plot_without_pandas():
     """Generate plot, without pandas."""
     # This method does not rely on the read_csv() function
@@ -37,8 +38,10 @@ def plot_without_pandas():
             # These next lines store the values in split_line to temporary
             # variables. Counting typically starts at 0 for most programming
             # languages.
-            x_temp = split_line[0]  # This line means:
-                                    # "take the first value in split_line, and call it x_temp"
+            # This next line means: "take the first value in split_line, and call it x_temp"
+            x_temp = split_line[0]
+            # The next 3 lines do the same thing, except they take the second, third, and fourth values
+            # and call them y_temp, sin_temp, and cos_temp.
             y_temp = split_line[1]
             sin_temp = split_line[2]
             cos_temp = split_line[3]
@@ -64,7 +67,7 @@ def plot_without_pandas():
             # function. Input will print a message, and wait for the user to
             # press 'enter'. To pause the loop and print the list x,
             # remove the # from the line below:
-            #input(x)
+            # input(x)
 
             # This is the end of the loop. The next lines only run after the
             # loop is finished.
@@ -75,6 +78,7 @@ def plot_without_pandas():
         plt.plot(x, sin)
         plt.plot(x, cos)
         plt.show(block=False)
+
 
 ###############################################################################
 # These next lines 'call' the functions defined above.

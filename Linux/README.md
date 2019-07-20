@@ -33,13 +33,14 @@ Some flash drives do not handle running an entire Operating System well (even if
     - Flash it
     ![Etcher3](Pictures/etcher3.png)
 
-##### Warning: The next steps vary by computer type. If you find them hard to follow, or if you are unsure, DON'T GUESS. [submit a question](QuestionForm.md) or [open an issue](https://github.com/mzurzolo/STBS/issues) with as much information about your computer (brand, model number, etc) as you can provide. Specific instructions for your system will be provided. Read until you see "First Time Setup" below
+##### Warning: The next steps vary by computer type. If you find them hard to follow, or if you are unsure, DON'T GUESS. [Submit a question](QuestionForm.md) or [open an issue](https://github.com/mzurzolo/STBS/issues) with information about your computer (brand, model number, etc). Specific instructions for your system will be provided.
+##### Read this next section until you see "First Time Setup" below.
 
 * After flash is complete, reboot your computer without removing the flash drive
 
 * While the computer is starting up, you need to access the boot menu, which is only available for a short window of time during a reboot.
 
-  - The boot menu can usually be accessed by holding one of the F# keys during the first stages of startup. Try F12 first. If that doesn't work, try hold Esc.
+  - The boot menu can usually be accessed by holding one of the F# keys during the first stages of startup. Try F12 first. If that doesn't work, try holding Esc.
 
   - You should hold the F# key (or Esc) as soon as you see the first logo appear on your screen.
 
