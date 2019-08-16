@@ -30,7 +30,7 @@ In this example, I will be showing you how to create the `data.csv` file from pr
 
 [Pandas read_csv function API entry](https://pandas.pydata.org/pandas-docs/version/0.24/reference/api/pandas.read_csv.html)
 
-[Pandas to_csv function API entry](https://pandas.pydata.org/pandas-docs/version/0.24/reference/api/pandas.to_csv.html)
+[Pandas to_csv function API entry](https://pandas.pydata.org/pandas-docs/version/0.24/reference/api/pandas.DataFrame.to_csv.html)
 
 [Python Dictionaries](https://docs.python.org/3/tutorial/datastructures.html#dictionaries)
 
