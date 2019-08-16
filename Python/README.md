@@ -8,8 +8,9 @@
 
 ### This guide assumes you already followed [linux guide 1.a.](../Linux/README.md)
 
-* Get the linux installer for x86_64\. Click [here](https://repo.anaconda.com/archive/Anaconda3-2019.03-Linux-x86_64.sh) to start the download. When the download finishes, you'll see a warning that the file is unsafe. Click 'Keep', it's an installer and it's safe. You can continue on while you're waiting for this download to finish. ![keep_this_file](Pictures/keep_this_file.png)
+* Get the linux installer for x86_64\. **Click [here](https://repo.anaconda.com/archive/Anaconda3-2019.03-Linux-x86_64.sh) to start the download.** When the download finishes, you'll see a warning that the file is unsafe. Click 'Keep', it's an installer and it's safe. You can continue on while you're waiting for this download to finish. ![keep_this_file](Pictures/keep_this_file.png)
 * Open a terminal ![terminal](Pictures/terminal.png) ![terminal2](Pictures/terminal2.png)
+* **If you didn't click the blue link above, scroll back up and click it. You need to start the download.**
 * Run these commands:
 
   - `sudo apt-get update`
@@ -18,7 +19,7 @@
 
     - These commands will install packages you need to install anaconda. You can paste things into a terminal with right click + paste, or ctrl-shift-v (regular ctrl-v doesn't work).
 
-- ##### Do not run the next command until the Anaconda download finishes.
+- ##### Do not run the next command until the Anaconda download finishes. If you aren't waiting for a
 
   - `chmod +x Downloads/Anaconda3-2019.03-Linux-x86_64.sh`
 
@@ -36,7 +37,11 @@
 
     - This will make sure your new anaconda environment is activated by default
 
-* Make Chromium your default browser. Here are pictures to show you how: ![default_browser1](Pictures/default_browser1.png) ![default_browser2](Pictures/default_browser2.png) ![default_browser3](Pictures/default_browser3.png) ![default_browser4](Pictures/default_browser4.png) ![default_browser5](Pictures/default_browser5.png)
+* Make Chromium your default browser. Here are pictures to show you how: ![default_browser1](Pictures/default_browser1.png)
+![default_browser2](Pictures/default_browser2.png)
+![default_browser3](Pictures/default_browser3.png)
+![default_browser4](Pictures/default_browser4.png)
+![default_browser5](Pictures/default_browser5.png)
 
 ### Next Steps:
 

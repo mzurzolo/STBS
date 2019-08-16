@@ -28,4 +28,6 @@ In this example, I will be showing you how to take a data file in CSV format (co
 
 [The Python Tutorial](https://docs.python.org/3/tutorial/introduction.html#using-python-as-a-calculator)
 
+#### [On to project3](../project3/README.md)
+
 #### [Back to Home](https://skiptheboringstuff.com)

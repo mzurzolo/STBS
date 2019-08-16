@@ -58,26 +58,56 @@ def plot_with_pandas():
 
 def generate_new_data():
     """Generate new data."""
-    # In this function, I'll show you a few ways to generate data.
-
-    x = range(1000)
-    print(x)
-    # Here's a way to create data using numpy:
+    # In this function, I'll show you how I generated the input.csv file you
+    # used in project 1 and 2.
+    x = np.linspace(0, 100, 1000)
+    # you can look at x by removing the '#' at the beginning of the line below:
+    #print(x)
     y = np.linspace(0, 100, 1000)
-    # y = np.arange(0, 1000)
-    print(x[-1])
-    print(y[-1])
-    print(len(x))
-    print(len(y))
-    #
+    # you can look at y by removing the '#' at the beginning of the line below:
+    #print(y)
+
+    # More complicated data can be generated with loops
+    # First, create an empty list
+    sin = []
+    # Then, loop thorugh x, change each value of x in some way, and add it to
+    # the end of the list.
+    for i in x:
+        changed_value = np.sin(i)
+        # append means 'add to the end'
+        sin.append(changed_value)
+
+    # you can look at sin by removing the '#' at the beginning of the line below:
+    #print(sin)
+
+    # np.sin() and np.cos() allow you to calculate the sine and cosine of
+    # more than one value at a time
+    cos = np.cos(x)
+    # you can look at cos by removing the '#' at the beginning of the line below:
+    #print(cos)
+
+    # To easily write data to a csv, make a pandas dataframe.
+    # first, create a dictionary of the data. For this example,
+    # the dictionary can be thought of as an excel spreadsheet, where the 'key'
+    # is the column header, and the :value is the data in the column.
+    temp_dictionary = {'x' : x,
+                       'y' : y,
+                       'sin' : sin,
+                      'cos' : cos}
+
+    # then, use the dictionary to create the dataframe
+    df = pd.DataFrame(temp_dictionary)
+
+    # dataframes can be written to csv files directly
+    df.to_csv("inputs/data.csv")
 
 
 ###############################################################################
 # These next lines 'call' the functions defined above.
 # If you erase the lines below (or put a # in front of them) this code won't
 # 'do' anything (it won't generate a graph anymore.)
-# plot_with_pandas()
 generate_new_data()
+plot_with_pandas()
 
 input("Press enter to close the graph (if it's still open) and end the program")
 

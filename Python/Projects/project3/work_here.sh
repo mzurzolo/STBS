@@ -18,9 +18,9 @@ mkdir -p inputs outputs
 # and put the copy in the inputs folder"
 # I copy the data.csv file this way so I only have one original to keep track
 # of, and I copy it into whatever project I'm using it for.
-if [ ! -f ./inputs/data.csv ] ; then
-  cp ../data.csv ./inputs/data.csv
-fi
+#if [ ! -f ./inputs/data.csv ] ; then
+#  cp ../data.csv ./inputs/data.csv
+#fi
 
 # "If there is not a directory called py3, then do the following things:
 #    1. create a virtual environment here called py3
