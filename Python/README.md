@@ -16,6 +16,7 @@
   - `sudo apt-get update`
   - `sudo apt-get -y install libbz2-1.0:amd64`
   - `sudo apt-get -y install libgl1:amd64`
+  - `sudo apt-get -y install libx11-dev:amd64`
 
     - These commands will install packages you need to install anaconda. You can paste things into a terminal with right click + paste, or ctrl-shift-v (regular ctrl-v doesn't work).
 
