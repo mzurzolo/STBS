@@ -13,14 +13,13 @@
 # see note 1 below for more details.
 mkdir -p inputs outputs
 
-# "If there is not a file called data.csv in a folder called inputs, then
-# copy data.csv from the folder one level up (just outside the project folder)
-# and put the copy in the inputs folder"
-# I copy the data.csv file this way so I only have one original to keep track
-# of, and I copy it into whatever project I'm using it for.
-#if [ ! -f ./inputs/data.csv ] ; then
-#  cp ../data.csv ./inputs/data.csv
-#fi
+git pull
+
+read -p "Reset python environment? (y/n)" result
+case "$result" in
+  y|Y ) rm -fR py3 ;;
+  n|N ) true ;;
+esac
 
 # "If there is not a directory called py3, then do the following things:
 #    1. create a virtual environment here called py3

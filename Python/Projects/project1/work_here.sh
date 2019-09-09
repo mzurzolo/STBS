@@ -22,6 +22,14 @@ if [ ! -f ./inputs/data.csv ] ; then
   cp ../data.csv ./inputs/data.csv
 fi
 
+git pull
+
+read -p "Reset python environment? (y/n)" result
+case "$result" in
+  y|Y ) rm -fR py3 ;;
+  n|N ) true ;;
+esac
+
 # "If there is not a directory called py3, then do the following things:
 #    1. create a virtual environment here called py3
 #    2. activate that environment so all python commands run inside the new
