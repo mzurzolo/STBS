@@ -20,7 +20,7 @@
 
     - These commands will install packages you need to install anaconda. You can paste things into a terminal with right click + paste, or ctrl-shift-v (regular ctrl-v doesn't work).
 
-- ##### Do not run the next command until the Anaconda download finishes. If you aren't waiting for a
+- ##### Do not run the next command until the Anaconda download finishes.
 
   - `chmod +x Downloads/Anaconda3-2019.03-Linux-x86_64.sh`
 
