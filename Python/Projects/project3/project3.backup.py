@@ -99,7 +99,7 @@ def generate_new_data():
     df = pd.DataFrame(temp_dictionary)
 
     # dataframes can be written to csv files directly
-    df.to_csv("inputs/data.csv")
+    df.to_csv("inputs/data.csv", index=False)
 
 
 ###############################################################################
