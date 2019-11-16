@@ -1,21 +1,27 @@
-## Project 3
+## Project 4
 
 ### If you haven't already, please read [project notes](../README.md).
 
-## Goal: Generate your own data.csv file.
+## Goal: Generate your own data, save it to your own .csv file.
 
-In this example, I will be showing you how to create the `data.csv` file from projects 1 and 2.
+In this example, I will be showing you how to create a new .csv file from an old one (plus extra columns) and look at some basic statistics of a dataframe.
 
 ## Project Setup:
 
 - Open a terminal window
-- Navigate to the project directory: `cd ~/STBS/Python/Projects/project3`
+- Navigate to the project directory: `cd ~/STBS/Python/Projects/project4`
 - Run the Project Setup Script: `source work_here.sh`
+- Open up the spreadsheet for data collection at: `inputs/run_times.xlsx`
+- Collect data
+- Export the spreadsheet as a csv file
+  - `File -> Download -> Comma-separated values (.csv)` for Google Sheets
+  - `File -> Save as... -> Text CSV (.csv)` for LibreOffice Calc
+- Save the file as `run_times.csv` to the `inputs` folder under `project4`
 
 ## Exercises:
 
-- Read all of the code and comments in Project 3
-- Run Project 3
+- Read all of the code and comments in Project 4
+- Run Project 4
 - Follow the [numpy quickstart guide](https://www.numpy.org/devdocs/user/quickstart.html) to create more interesting data to plot.
 
 ## Resources for the exercises:
@@ -33,7 +39,5 @@ In this example, I will be showing you how to create the `data.csv` file from pr
 [Pandas to_csv function API entry](https://pandas.pydata.org/pandas-docs/version/0.24/reference/api/pandas.DataFrame.to_csv.html)
 
 [Python Dictionaries](https://docs.python.org/3/tutorial/datastructures.html#dictionaries)
-
-#### [On to project4](../project4/README.md)
 
 #### [Back to Home](https://skiptheboringstuff.com)
