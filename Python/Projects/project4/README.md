@@ -16,8 +16,8 @@ In this example, I will be showing you how to create a new .csv file from an old
 - Open up the spreadsheet for data collection at: `inputs/run_times.xlsx`
 - Collect data
 - Export the spreadsheet as a csv file
-  - `File -> Download -> Comma-separated values (.csv)` for Google Sheets
-  - `File -> Save as... -> Text CSV (.csv)` for LibreOffice Calc
+  - `File` -> `Download` -> `Comma-separated values (.csv)` for Google Sheets
+  - `File` -> `Save as...` -> `Text CSV (.csv)` for LibreOffice Calc
 - Save the file as `run_times.csv` to the `inputs` folder under `project4`
 
 ## Exercises:
