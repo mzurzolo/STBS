@@ -9,6 +9,8 @@ In this example, I will be showing you how to create a new .csv file from an old
 ## Project Setup:
 
 - Open a terminal window
+- Navigate to the STBS directory: `cd ~/STBS`
+- Get STBS Updates: `git pull`
 - Navigate to the project directory: `cd ~/STBS/Python/Projects/project4`
 - Run the Project Setup Script: `source work_here.sh`
 - Open up the spreadsheet for data collection at: `inputs/run_times.xlsx`
