@@ -31,13 +31,16 @@ esac
 #        environment
 #    3. upgrade python's package installer (pip)
 #    4. install all the packages listed in requirements.txt"
-if [ ! -d ./py3 ] ; then
-  python3 -m venv py3
-  source py3/bin/activate
+
+## Altered to use project1's virtual environment
+###############################################################################
+if [ ! -d ../project1/py3 ] ; then
+  python3 -m venv ../project1/py3
+  source ../project1/py3/bin/activate
   python3 -m pip install --upgrade pip
   python3 -m pip install -r requirements.txt
 fi
-
+###############################################################################
 # "If there is not a file called project3.py, then
 # copy the file project3.backup.py and call the project3.py"
 # I copy projects this way so the project's "starting point" is saved,
@@ -51,7 +54,9 @@ fi
 # "activate the virtual environment"
 # This makes sure the virtual environment gets activated even if it already
 # exists.
-source py3/bin/activate
+
+## Use project1's virtual environment
+source ../project1/py3/bin/activate
 
 # This starts jupyter lab in your browser. Starting jupyter lab from the script
 # Makes sure that when you stop jupyter lab, you don't need to deactivate your
