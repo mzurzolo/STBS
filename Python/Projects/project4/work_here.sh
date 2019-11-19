@@ -1,4 +1,4 @@
-#!/bin/sh
+4.py#!/bin/sh
 
 # work_here.sh is a shell script (it's not python).
 # shell scripts are just another way to tell your computer what to do.
@@ -32,19 +32,17 @@ esac
 #    3. upgrade python's package installer (pip)
 #    4. install all the packages listed in requirements.txt"
 
-## Altered to use project1's virtual environment
-###############################################################################
-if [ ! -d ../project1/py3 ] ; then
-  python3 -m venv ../project1/py3
-  source ../project1/py3/bin/activate
+if [ ! -d ./py3 ] ; then
+  python3 -m venv py3
+  source py3/bin/activate
   python3 -m pip install --upgrade pip
   python3 -m pip install -r requirements.txt
 fi
-###############################################################################
-# "If there is not a file called project3.py, then
-# copy the file project3.backup.py and call the project3.py"
+
+# "If there is not a file called project4.py, then
+# copy the file project4.backup.py and call the project4.py"
 # I copy projects this way so the project's "starting point" is saved,
-# and you can make changes to project3.py without worrying about losing the
+# and you can make changes to project4.py without worrying about losing the
 # original. It also allows you to get updated projects (with git pull) without
 # those updates overwriting your current work.
 if [ ! -f ./project4.py ] ; then
@@ -55,8 +53,7 @@ fi
 # This makes sure the virtual environment gets activated even if it already
 # exists.
 
-## Use project1's virtual environment
-source ../project1/py3/bin/activate
+source py3/bin/activate
 
 # This starts jupyter lab in your browser. Starting jupyter lab from the script
 # Makes sure that when you stop jupyter lab, you don't need to deactivate your

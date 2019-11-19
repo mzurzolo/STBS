@@ -30,7 +30,7 @@ esac
 
 if [ ! -d ./py3 ] ; then
   python3 -m venv ./py3
-  source ./py3/bin/activate
+  source py3/bin/activate
   python3 -m pip install --upgrade pip
   python3 -m pip install -r requirements.txt
 fi
@@ -48,7 +48,7 @@ fi
 # "activate the virtual environment"
 # This makes sure the virtual environment gets activated even if it already
 # exists.
-source ./py3/bin/activate
+source py3/bin/activate
 
 # This starts jupyter lab in your browser. Starting jupyter lab from the script
 # Makes sure that when you stop jupyter lab, you don't need to deactivate your
