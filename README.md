@@ -21,6 +21,8 @@ We all learned to speak before we knew parts of speech; we could all add before 
 
 [Project 4](Python/Projects/project4/README.md)
 
+[Project 5](Python/Projects/project5/README.md)
+
 ## Files:
 
 Extra project files can be downloaded from the Google Drive [shared folder](https://drive.google.com/drive/folders/19lm31blakFJes99gz_KqloNM8IEqbpLa?usp=sharing)
