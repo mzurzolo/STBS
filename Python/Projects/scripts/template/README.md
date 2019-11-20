@@ -14,7 +14,10 @@ These setup steps can be followed to create new projects easily.
 - Navigate to the project directory: `cd ~/STBS/Python/Projects`
 - Run the Project Setup Script: `./scripts/generate_project.sh`
 - Follow the prompts
-  - You should not need to change the project path. Give the project a name, hit `Enter`, then hit `y`, and `Enter` again.
+  - Give the project a name
+  - hit `Enter`
+  - hit `Enter` again (you shouldn't change the project path)
+  - hit `y`
 
 ## Files:
 
