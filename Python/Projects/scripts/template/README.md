@@ -1,10 +1,10 @@
-## Project Template
+## Project Generator
 
 ### If you haven't already, please read [project notes](../README.md).
 
 ## Goal: Generate Projects
 
-These files, plus `generate_project.sh`, should allow new projects to be created easily.
+These setup steps can be followed to create new projects easily.
 
 ## Project Setup:
 
@@ -14,6 +14,7 @@ These files, plus `generate_project.sh`, should allow new projects to be created
 - Navigate to the project directory: `cd ~/STBS/Python/Projects`
 - Run the Project Setup Script: `./scripts/generate_project.sh`
 - Follow the prompts
+  - You should not need to change the project path. Give the project a name, hit `Enter`, then hit `y`, and `Enter` again.
 
 ## Files:
 

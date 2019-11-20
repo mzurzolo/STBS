@@ -33,16 +33,24 @@ print_success() {
   printf "and\n\tsource work_here.sh\n\n"
 }
 
+path_change() {
+  # Prompt user to edit project path
+  read -e -i "${PROJECT_PATH}" -p "Project path: " result1
+  # Set project path to whatever the user entered
+  PROJECT_PATH="${result1:-${PROJECT_PATH}}/${PROJECT_NAME}"
+}
 
 # Prompt user to enter a project name, defaulting to the project name set above
 read -e -i "$PROJECT_NAME" -p "Project name: " result
 # Set project name to whatever the user entered
 PROJECT_NAME="${result:-$PROJECT_NAME}"
 
-# Prompt user to enter a project path, defaulting to the default path set above
-read -e -i "${PROJECT_PATH}/${PROJECT_NAME}" -p "Project path: " result
-# Set project path to whatever the user entered
-PROJECT_PATH="${result:-${PROJECT_PATH}/${PROJECT_NAME}}"
+printf "\nProject will be created at: ${PROJECT_PATH}/${PROJECT_NAME}\n\n"
+read -e -p "Continue? (y/n)" result0
+case "$result0" in
+  y|Y ) PROJECT_PATH="${PROJECT_PATH}/${PROJECT_NAME}" ;;
+  n|N ) path_change ;;
+esac
 
 mkdir -p $PROJECT_PATH && copy_files && print_success
 
