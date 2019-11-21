@@ -15,11 +15,13 @@ mkdir -p inputs outputs
 
 git pull
 
-read -p "Reset python environment? (y/n)" result
-case "$result" in
-  y|Y ) rm -fR py3 ;;
-  n|N ) true ;;
-esac
+if [ -d py3 ] ; then
+  read -p "Reset python environment? (y/n)" result
+  case "$result" in
+    y|Y ) rm -fR py3 ;;
+    n|N ) true ;;
+  esac
+fi
 
 # "If there is not a directory called py3, then do the following things:
 #    1. create a virtual environment here called py3
@@ -27,7 +29,7 @@ esac
 #        environment
 #    3. upgrade python's package installer (pip)
 #    4. install all the packages listed in requirements.txt"
-if [ ! -d ./py3 ] ; then
+if [ ! -d py3 ] ; then
   python3 -m venv py3
   source py3/bin/activate
   python3 -m pip install --upgrade pip
@@ -40,8 +42,8 @@ fi
 # and you can make changes to project3.py without worrying about losing the
 # original. It also allows you to get updated projects (with git pull) without
 # those updates overwriting your current work.
-if [ ! -f ./project3.py ] ; then
-  cp ./project3.backup.py ./project3.py
+if [ ! -f project3.py ] ; then
+  cp project3.backup.py project3.py
 fi
 
 # "activate the virtual environment"

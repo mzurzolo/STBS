@@ -19,11 +19,13 @@ if [ ! -f ./inputs/run_times.xlsx ] ; then
   cp ../run_times.xlsx ./inputs/run_times.xlsx
 fi
 
-read -p "Reset python environment? (y/n)" result
-case "$result" in
-  y|Y ) rm -fR py3 ;;
-  n|N ) true ;;
-esac
+if [ -d py3 ] ; then
+  read -p "Reset python environment? (y/n)" result
+  case "$result" in
+    y|Y ) rm -fR py3 ;;
+    n|N ) true ;;
+  esac
+fi
 
 # "If there is not a directory called py3, then do the following things:
 #    1. create a virtual environment here called py3
@@ -32,7 +34,7 @@ esac
 #    3. upgrade python's package installer (pip)
 #    4. install all the packages listed in requirements.txt"
 
-if [ ! -d ./py3 ] ; then
+if [ ! -d py3 ] ; then
   python3 -m venv py3
   source py3/bin/activate
   python3 -m pip install --upgrade pip
@@ -45,8 +47,8 @@ fi
 # and you can make changes to project4.py without worrying about losing the
 # original. It also allows you to get updated projects (with git pull) without
 # those updates overwriting your current work.
-if [ ! -f ./project4.py ] ; then
-  cp ./project4.backup.py ./project4.py
+if [ ! -f project4.py ] ; then
+  cp project4.backup.py project4.py
 fi
 
 # "activate the virtual environment"
